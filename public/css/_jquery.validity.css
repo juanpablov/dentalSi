@@ -1,0 +1,95 @@
+/* 
+ * Style used by the label output mode.
+ * Applied to the error labels that get positioned after an input.
+ */
+label.error { 
+    color:#fff; 
+    margin-left:2px;     
+    background-image:url('arrow.gif');
+	/*background-image:url(../img/icon_sinatender.gif);	*/
+    background-position:left center;
+    background-repeat:no-repeat;
+    padding:2px;
+    padding-left:18px;
+    -moz-border-radius:4px;
+    -webkit-border-radius: 4px;
+}
+
+.largefont {
+  color: #224488;
+  font-family:arial;
+} 
+
+/*
+ * Styles used by the modal output mode.
+ * '.validity-modal-msg' is applied to the modal boxes 
+ * and '.validity-modal-msg:hover' is applied to suggest 
+ * to the user that the boxes are clickable.
+ */
+.validity-modal-msg { 
+    position:absolute; 
+    z-index:2; 
+    background-color:#ccc; 
+    border:solid 1px #000;
+	top: 100px; left: 30px;
+    padding:20px;
+    cursor:pointer; 
+}
+
+.validity-modal-msg:hover { 
+    background-color:#aaa; 
+}
+
+/*
+ * Styles used by the summary output mode.
+ * '.validity-summary-container' is a container on the page that should contain a UL 
+ * which is the actual summary. The container can hold 
+ * an extra bit of text (or anything really) that explains what the summary is.
+ * '.validity-erroneous' is applied to every input that fails.
+ */
+.validity-summary-container { display:none; }
+.validity-summary-output ul { color: red;}
+.validity-erroneous { border:solid 4px #224466 !important ; }
+
+
+
+.validity-tooltip {
+	z-index:0; 
+	cursor:pointer;
+	padding:3px;
+	width:20em;
+	border-width:3px;
+	border-color:#fff;
+	border-style:solid;
+	color:#fff;
+	background-image:url(arrow.gif);
+	position: absolute;
+	background-color:#111111;
+	
+	opacity: .5;
+	filter: alpha(opacity=50);
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+}
+
+
+.validity-tooltip:hover img {
+			border: 0;
+			/*margin: -10px 0 0 -55px;
+			float: left; position: absolute;*/
+		}
+
+.validity-tooltip:hover {
+    border-color:#333;
+}
+
+.validity-tooltip .validity-tooltip-outer, 
+.validity-tooltip .validity-tooltip-inner {
+}
+
+.validity-tooltip .validity-tooltip-outer {	
+
+}
+
+.validity-tooltip .validity-tooltip-inner {
+   
+}

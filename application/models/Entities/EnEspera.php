@@ -2,7 +2,6 @@
 
 /**
  * @Entity
- * @Table(name="enespera")
  *
  */
 class EnEspera extends EstadoTurno
@@ -15,7 +14,7 @@ class EnEspera extends EstadoTurno
         
     }
     
-    public function anuncioPaciente(){
+    public function anuncioPaciente($unTurno){
         
     }
     

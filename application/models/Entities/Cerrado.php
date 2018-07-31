@@ -2,7 +2,6 @@
 
 /**
  * @Entity
- * @Table(name="cerrado")
  *
  */
 class Cerrado extends EstadoTurno

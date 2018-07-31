@@ -8,7 +8,7 @@
 class Paciente
 {
     /**
-     * @ManyToMany(targetEntity="Sucursal", mappedBy="pacientes", cascade=({"all})
+     * @ManyToMany(targetEntity="Sucursal", mappedBy="pacientes", cascade={"all"})
      * @JoinTable(name="sucursal_paciente",
      *              joinColumns={@JoinColumn(name="paciente_id", referencedColumnName="id")},
      *              inverseJoinColumns={@JoinColumn(name="sucursal_id", referencedColumnName="id")}
@@ -16,7 +16,7 @@ class Paciente
      */
     private $sucursales;
     /**
-     * @ManyToMany(targetEntity="Doctor", mappedBy="pacientes", cascade=({"all"})
+     * @ManyToMany(targetEntity="Doctor", inversedBy="pacientes", cascade={"all"})
      * @JoinTable(name="doctor_paciente",
      *              joinColumns={@JoinColumn(name="paciente_id", referencedColumnName="id")},
      *              inverseJoinColumns={@JoinColumn(name="doctor_id", referencedColumnName="id")}
@@ -25,10 +25,22 @@ class Paciente
      */
     private $doctores;
     /**
-     * OneToMany(targetEntity="FichaDeAtencion", mappedBy="paciente")
-     * @var unknown
+     * @OneToMany(targetEntity="FichaDeAtencion", mappedBy="paciente")
+     *
      */
     private $historiaClinica;
+    /**
+     * @Id
+     * @GeneratedValue
+     * @Column(type="integer")
+     * 
+     */
+    private $id;
+    /**
+     * @Column(type="string", length=150, name="nombre")
+     * @var unknown
+     */
+    private $nombre;
     
 
     public function __construc(){

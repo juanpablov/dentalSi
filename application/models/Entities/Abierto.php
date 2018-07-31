@@ -1,7 +1,8 @@
 <?php
+require_once 'EstadoTurno.php';
 /**
  * @Entity
- * @Table(name="abierto")
+ * 
  *
  */
 

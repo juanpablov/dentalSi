@@ -13,11 +13,17 @@ class Especialidad
      */
     private $nombre;
     /**
-     * @ManyToMany(targetEntity="Doctor", mappedBy="especialidades", cascade=({"all})
+     * @ManyToMany(targetEntity="Doctor", inversedBy="especialidades", cascade={"all"})
      * 
      */
     private $doctores;
-    private $turnos;
+    /**
+     * @Id
+     * @GeneratedValue
+     * @Column(type="integer")
+     * 
+     */
+    private $id;
     /**
      * @return mixed
      */

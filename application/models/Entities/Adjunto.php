@@ -8,11 +8,23 @@
 class Adjunto
 {
     /**
-     * @ManyToOne(targetEntity="FichaDeAtencion", mappedBy="adjuntos")
+     * @ManyToOne(targetEntity="FichaDeAtencion", inversedBy="adjuntos")
+     * @JoinColumn(name="fichadeatencion_id", referencedColumnName="id")
      * 
      */
     private $fichaDeAtencion;
+    /**
+     * @Column(type="string", length=150, name="url")
+     * 
+     */
     private $url;
+    /**
+     * @Id
+     * @GeneratedValue
+     * @Column(name="integer")
+     * 
+     */
+    private $id;
     /**
      * @return mixed
      */

@@ -13,20 +13,29 @@ class Turno
      */
     private $fecha;
     /**
-     * @ManyToOne(targetEntity="Especialidad", mappedBy="turnos")
-     * 
+     * @ManyToOne(targetEntity="Especialidad")
+     * @JoinColumn(name="especialidad_id", referencedColumnName="id")
      */
     private $especialidad;
     /**
-     * @Column (type="string", length=150, name="sucursal")
+     * @ManyToOne(targetEntity="Sucursal")
+     * @JoinColumn(name="sucursal_id", referencedColumnName="id")
      * 
      */
     private $sucursal;
     /**
-     * @OneToOne(targetEntity="EstadoTurno", mappedBy="turno")
+     * @OneToOne(targetEntity="EstadoTurno", inversedBy="turno")
+     * @JoinColumn(name="estado_id", referencedColumnName="id")
      * 
      */
     private $estado;
+    /**
+     * @Id
+     * @GeneratedValue
+     * @Column(type="integer")
+     * 
+     */
+    private $id;
     
    
     

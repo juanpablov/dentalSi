@@ -1,0 +1,898 @@
+/***HOJA DE ESTILO - INDEX - HELPCLIENT***/
+* {
+    box-sizing: border-box;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	max-width: 1280px;
+	margin: auto;
+}
+/* =======================================================================================================================
+ * ENCABEZADO DESKTOP
+ *=======================================================================================================================*/
+.encabezado_desktop{
+	max-width: 1280px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+    height: 65vh;
+    background-image: url(../img/helpclient_inicio.png);
+    background-size: cover;
+    background-position: top center;
+}
+.sesion{
+	width: 100%;
+    text-align: right;
+    width: 95%;
+    max-width: 1000px;
+    margin: 0 auto;
+   padding-top: 1%;
+}
+.sesion .boton_sesion{
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size: 0.6rem;
+	font-weight: bold;
+	color:#0071bc;
+	display: inline-block;
+	padding-left: 10px;
+	cursor:pointer;
+}
+.encabezado{
+	width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-bottom: 1px solid darkblue;
+    overflow: auto;
+}
+.logo{
+	width:25%;
+	max-width:200px; 
+	float:left;
+	padding-bottom: 1%;
+}
+.logo img{
+	width:100%;
+	padding-left: 2%;
+}
+.menu{
+	width:100%;
+	float:right;
+	line-height: 0;
+}
+.menu ul{
+	list-style: none;
+	display: inline-flex;
+	width: 100%;
+	padding: 0;
+}
+.menu ul li{
+	flex-grow: 1;
+	text-align: right;
+}
+.menu ul li a{
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size: 0.8rem;
+	font-weight: bold;
+	color:#1a1956;
+}
+.menu ul li a:hover{
+	color:#0071bc;
+	transition: color 1s;
+}
+.imagen_inicio_texto{
+	position: relative;
+    width: 93%;
+    max-width: 1000px;
+    top: 29%;
+    margin: 0 auto;
+    z-index: 1;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+.imagen_inicio_texto h3{
+	font-weight: bold;
+	color:#1a1956;
+	font-size: 1.5rem;
+	margin:0;
+}
+.imagen_inicio_texto h2{
+	font-weight: bold;
+	color:#0071bc;
+	margin:0;
+	font-size: 1.9rem;
+}
+.imagen_inicio_texto p{
+    font-size: 1.1rem;
+    color: #1a1956;
+    text-transform: initial;
+    margin-top: 0.3rem;
+    max-width: 352px;
+}
+.imagen_inicio_texto button{
+    margin: 0 auto;
+    padding: 9px;
+    border-radius: 6px;
+    width: 167px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    -webkit-box-shadow: 2px 3px 18px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 3px 18px -1px rgba(0,0,0,0.75);
+    box-shadow: 2px 3px 18px -1px rgba(0,0,0,0.75);
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    margin-top: 5px;
+    background-color: #1a1956;
+    font-size: 0.8rem;
+    margin-right: 10px;
+}
+.imagen_inicio_texto button a{
+	text-decoration: none;
+	color: white;
+}
+/* =======================================================================================================================
+ * ENCABEZADO MOBILE
+ *=======================================================================================================================*/
+#boton_hamburguesa{
+	float: right;
+    right: 1%;
+}
+#boton_hamburguesa img{
+	width:45%;
+}
+.encabezado_mobil, .imagen_inicio_texto_mobile {
+		display:none;}
+.encabezado_mobil{
+	margin-top: 3%;
+	display:none;
+	width:100%;
+	padding: 1%;
+	padding-left: 5%;
+	padding-right: 5%;
+	overflow:auto;
+	position:relative;
+	z-index: 1;
+	border-bottom: 1px solid #1a1956;
+}
+.encabezado_mobil .logo{
+	width: 30%;
+	min-width:100px;
+	float: left;
+	z-index: 3;
+	max-width: 150px;
+	padding-bottom:1%;
+}
+.encabezado_mobil .logo img{
+	width:100%;
+} 
+.encabezado_mobil #boton_hamburguesa{
+	float:right;
+	cursor:pointer;
+	text-align: right;
+}	
+#menu_mobil{	
+	display: none;
+	font-family: 'Playfair Display', serif;
+	position: absolute;
+	background-color: #ffffffeb;
+	z-index: 2;
+	right: 0px;
+	top: 7%;
+	width: 50%;
+	-webkit-box-shadow: 3px 3px 15px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px 3px 15px -1px rgba(0,0,0,0.75);
+	box-shadow: 3px 3px 15px -1px rgba(0,0,0,0.75);
+}
+#menu_mobil ul{
+	list-style-type:none;
+	padding: 3%;
+	display:block;
+	padding-bottom:0;
+}
+#menu_mobil ul li{
+	flex-grow:1; 
+	padding-bottom: 13px;
+	padding-right: 7px;
+	padding-left: 7px;
+	text-align: center;
+}
+#menu_mobil ul a{
+	text-decoration:none;
+	color:white;
+	font-size:0.9em;
+	color:#567164;
+}
+.imagen_inicio_texto_mobile {
+	background-image: url(../img/helpclient_inicio-mobil.png);
+    background-size: 100%;
+    background-position: top center;
+    height: 50vh;
+    text-transform: uppercase;
+}
+.imagen_inicio_texto_mobile  h3{
+	font-weight: bold;
+	color:#1a1956;
+	font-size: 1.2rem;
+	margin:0;
+	padding-top: 96px;
+    padding-left: 5%;
+}
+.imagen_inicio_texto_mobile  h2{
+	font-weight: bold;
+	color:#0071bc;
+	margin:0;
+	font-size: 1.5rem;
+	padding-left: 5%;
+}
+.imagen_inicio_texto_mobile  p{
+    font-size: 1rem;
+    color: #1a1956;
+    text-transform: initial;
+    margin-top: 0.3rem;
+    max-width: 373px;
+    padding-left: 5%;
+}
+.imagen_inicio_texto_mobile button{
+	margin: 0 auto;
+    padding: 9px;
+    border-radius: 6px;
+    width: auto;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    -webkit-box-shadow: 2px 3px 18px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 3px 18px -1px rgba(0,0,0,0.75);
+    box-shadow: 2px 3px 18px -1px rgba(0,0,0,0.75);
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #1a1956;
+    font-size: 0.8rem;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+.imagen_inicio_texto_mobile button a{
+	text-decoration: none;
+	color: white;
+}
+/* =======================================================================================================================
+ * CONTENIDO
+ *=======================================================================================================================*/
+.contenido{
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 8%;
+    clear: both;
+}
+/*=================================================MODAL=================================================*/
+
+.closer, .closei {
+    color:white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.closer:hover,
+.closer:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.closei:hover,
+.closei:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.titulo_modal{
+	 font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+}
+.formulario_modal{
+  	text-align: center;}  
+
+.formulario_modal input{
+    width: 80%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.formulario_modal label{
+    font-weight: bold;
+}
+.modal_ticket{
+    background-color: #0071bc;
+    margin: 15% auto;
+    padding: 16px;
+    border: 1px solid #888;
+    width: 50%;
+    max-width: 500px;
+}
+.closeg, .closee{
+	font-size: 25px;
+    float: right;
+    cursor: pointer;
+}
+.titulo_modal2{
+	color:#100f34;
+	font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px;
+    margin: 0;
+}
+.formulario_modal_generar{
+	padding: 20px;
+	padding-bottom: 10px;
+}
+.formulario_modal_generar label{
+	color:white;
+}
+
+.formulario_modal_generar input{
+	width:75%;
+	float:right;
+	font-family: 'Roboto', sans-serif;
+}
+.formulario_modal_generar textarea{
+	width: 100%;
+    height: 18vw;
+}
+
+/*=================================================CONTENIDO VISIBLE=================================================*/
+.texto_centrado{
+	width:70%;
+	margin:0 auto;
+	text-align: center;
+	color:#1a1956;
+}
+.texto_centrado h2{
+	text-transform: uppercase;
+	font-size: 1.3rem;
+}
+.texto_centrado p{
+	font-size: 0.9rem;
+	line-height: 1.2rem;
+}
+/*=================================================CUADRO TICKET: DESKTOP=================================================*/
+.cuadro_ticket{
+    width: 100%;
+    margin-top: 5rem;
+}
+.cuadro_abrirticket, .cuadro_estadoticket{
+    overflow: auto;
+    background-color: #0071bc;
+}
+.cuadro_abrirticket_img, .cuadro_estadoticket_img{
+	width: 50%;
+    float: left;
+}
+.cuadro_abrirticket_texto, .cuadro_estadoticket_texto{
+	width: 50%;
+    float: right;
+    text-align: center;
+    color:white;
+    padding-top: 3rem;
+}
+.cuadro_abrirticket_texto div, .cuadro_estadoticket_texto a {
+	text-decoration: none;
+}
+.cuadro_abrirticket_texto div{
+		color: white;
+}
+.cuadro_estadoticket_texto div{
+		color: #1a1956;
+}
+.cuadro_abrirticket_texto h3, .cuadro_estadoticket_texto h3{
+	text-transform: uppercase;
+	font-size: 1.2rem;
+}
+.cuadro_abrirticket_texto p, .cuadro_estadoticket_texto p{
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.3rem;
+}
+.cuadro_estadoticket{
+    background-color:#e6e6e6;
+}
+.cuadro_estadoticket_img{
+    float: right;
+}
+.cuadro_estadoticket_texto{
+	float: left;
+}
+/*=================================================CUADRO TICKET: MOBILE=================================================*/
+.cuadro_ticket-mobile{
+	display: none;
+	background-image: url("../img/helpclient_cuadro_img-mobile.png");
+	background-size: cover;
+	width: 90%;
+    margin: 0 auto;
+    overflow: auto;
+    margin-top: 24px;
+}
+.cuadro_contenedor_ticket-mobile{
+	width:50%;
+	float:right;
+}
+.cuadro_ticket-mobile .cuadro_abrirticket-mobile{
+    overflow: auto;
+    background-color: #0071bcba;
+}
+.cuadro_ticket-mobile .cuadro_estadoticket-mobile{
+    background-color:#e6e6e6d4;
+}
+.cuadro_ticket-mobile .cuadro_abrirticket_texto-mobile, .cuadro_ticket-mobile .cuadro_estadoticket_texto-mobile{
+	width: 90%;
+	margin:0 auto;
+    text-align: center;
+    color:white;
+    padding: 0.5rem;
+}
+.cuadro_ticket-mobile .cuadro_abrirticket_texto-mobile div, .cuadro_ticket-mobile .cuadro_estadoticket_texto-mobile a {
+	text-decoration: none;
+}
+.cuadro_ticket-mobile .cuadro_abrirticket_texto-mobile div{
+		color: white;
+}
+.cuadro_ticket-mobile .cuadro_estadoticket_texto-mobile a{
+		color: #1a1956;
+}
+.cuadro_ticket-mobile .cuadro_abrirticket_texto-mobile h3, .cuadro_ticket-mobile .cuadro_estadoticket_texto-mobile h3{
+	text-transform: uppercase;
+	font-size: 1rem;
+}
+.cuadro_ticket-mobile .cuadro_abrirticket_texto-mobile p{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 0.8rem;
+    padding-bottom: 10px;
+}
+/*=================================================EMPRESAS=================================================*/
+.empresas{
+	width:100%;
+	text-align: center;
+}
+.empresas h3{
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	color:#0071bc;
+	margin-top: 5rem;
+}
+.empresas img{
+	width:100%;
+}
+.empresas a{
+    clear: both;
+    width: 100%;
+    display: inline-block;
+    text-align: right;
+    text-transform: uppercase;
+	font-size: 0.7rem;
+	color:#0071bc;
+	text-decoration:none;
+}
+.empresas a:hover{
+	color: #1a1956;
+	transition: color 1s;
+}
+/*=================================================CONTACTO=================================================*/
+.contacto{
+	background-color:#0071bc;
+	width:100%;
+	margin:0 auto;
+	color:white;
+    padding: 2rem 4rem;
+    box-sizing: border-box;
+    overflow: auto;
+    margin-top: 3rem;
+}
+.contacto h3{
+	text-transform: uppercase;
+    font-size: 1.2rem;
+    color: white;
+}
+.formulario_datos{
+	width:50%;
+	float:left;
+}
+.formulario_datos input{
+	width: 90%;
+    margin-top: 0.5rem;
+    height: 25px;
+    margin-bottom: 1rem;
+	font-family: 'Roboto', sans-serif;
+}
+.formulario_comentario{
+	width:50%;
+	float:right;
+}
+.formulario_comentario textarea{
+    font-family: 'Roboto', sans-serif;
+    height: 190px;
+    width:100%;
+}
+.formulario_boton{
+	clear: both;
+    text-align: center;
+}
+.formulario_boton input{
+	margin: 0 auto;
+    padding: 6px;
+    background-color: white;
+    border-radius: 6px;
+    width: 113px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: #1a1956;
+    font-weight: bold;
+    -webkit-box-shadow: 2px 3px 18px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 3px 18px -1px rgba(0,0,0,0.75);
+	box-shadow: 2px 3px 18px -1px rgba(0,0,0,0.75);
+	border: none;
+	cursor: pointer;
+}
+.boton_azul input{
+	margin-top: 0px;
+    background-color: #100f34;
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.8rem;
+	color: #ffffff;
+}
+/* =======================================================================================================================
+ * FOOTER
+ *=======================================================================================================================*/
+.footer-desktop{
+	background-color:#090930;
+    margin-bottom: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	font-weight:100;
+	color:#cfcfe29e;
+	margin-top: 40px;
+	padding-left: 20px;
+    padding-right: 20px;
+}
+.caja_footer{
+	max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+   	width: 90%;
+}
+.footer-desktop h4{
+	text-transform: uppercase;
+		font-size: 0.9rem;
+}
+.footer-desktop p{
+	font-family: 'Roboto', sans-serif;
+	font-weight:100;
+	font-size: 0.8rem;
+}
+.footer_empresa, .footer_enlaces, .footer_contacto {
+	flex-grow: 1;
+    box-sizing: border-box;
+
+}
+.footer_contacto{
+	max-width: 192px;
+    float: right;
+}
+.footer_empresa img{
+	width:150px;
+	padding-top: 8%;
+}
+.footer_empresa p{
+	padding-left: 10px;
+}
+
+.footer_enlaces li{
+	list-style: none;
+}
+.footer_enlaces a{
+	text-decoration: none;
+	color:#cfcfe29e;
+	font-family: 'Roboto', sans-serif;
+	font-weight:100;
+	font-size: 0.8rem;
+}
+/*=================================================FOOTER MOBILE=================================================*/
+.footer-mobile{
+	display: none;
+	background-color: #1a1956;
+	margin-top: 2rem;
+	margin-bottom: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	font-weight:100;
+	color:#cfcfe29e;
+}
+.caja_footer-mobile{
+	max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+   	width: 90%;
+}
+.footer-mobile .footer_contacto {
+    max-width: 213px;
+}
+.footer-mobile h4{
+	text-transform: uppercase;
+    font-size: 0.7rem;
+    margin: 0;
+    margin-top:7px;
+}
+.footer-mobile p{
+	font-family: 'Roboto', sans-serif;
+	font-weight:100;
+	font-size: 0.6rem;
+	padding-left: 10px;
+}
+.footer-mobile img{
+	width:150px;
+	padding-top: 3%;
+}
+.footer-mobile .footer_contacto{
+    max-width: 200px;
+    border-left: 1px solid #67677987;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   padding-left: 10px;
+}
+/* ====================================================================================================================
+ * MEDIAS
+ *====================================================================================================================*/
+@media(max-width:850px){
+	.cuadro_abrirticket_texto, .cuadro_estadoticket_texto{
+	    width: 50%;
+	    float: right;
+	    text-align: center;
+	    color: white;
+	    padding-top: 2rem;
+	}
+}
+
+@media(max-width:768px){
+	.encabezado_desktop{
+  		display:none;
+	}
+	.encabezado_mobil, .imagen_inicio_texto_mobile{
+  		display:block;
+	}
+	.imagen_inicio_texto h3{
+		font-weight: bold;
+		color:#1a1956;
+		text-align: justify;
+		font-size: 1rem;
+		margin:0;
+	}
+	.imagen_inicio_texto h2{
+		font-weight: bold;
+		color:#0071bc;
+		text-align: justify;
+		margin:0;
+		font-size: 1.4rem;
+	}
+	.imagen_inicio_texto p{
+	    font-size: 0.98rem;
+	    color: #1a1956;
+	    text-transform: initial;
+	    margin-top: 0.3rem;
+	    max-width: 275px;
+	}
+	.texto_centrado h2{
+    	font-size: 1rem;
+	}
+	.texto_centrado p{
+	    font-size: 0.8rem;
+	    line-height: 1rem;
+	}
+	.cuadro_ticket{
+		display: none;
+	}
+	.cuadro_ticket-mobile{
+		display: block;
+	}
+	.empresas h3{
+	    text-transform: uppercase;
+	    font-size: 0.9rem;
+	    color: #101010;
+	    margin-top: 3rem;    
+	}
+	.empresas a{
+	    color: #000000;
+	    text-decoration: underline;
+	}
+	.contacto{
+	    background-color: #dcdcdc;
+	    padding: 1rem 4rem;
+	    margin-top: 2rem;
+	}
+	.contacto h3{
+	    margin-bottom: 0.5rem;
+	    font-size:0.9rem;
+	}
+	.formulario_datos{
+	    width: 100%;
+	    float:none;
+	}
+	.formulario_comentario {
+	    width: 100%;
+	    float: none;
+	}
+	.formulario_datos input{
+	    width: 100%;
+	    height: 24px;
+	    margin-bottom: 0.4rem;
+	    font-family: 'Roboto', sans-serif;
+	}
+	.formulario_boton input{
+	    color: #ffffff;
+	    margin-top:5px;
+	    background-color: #0071bc;
+		font-family: 'Roboto', sans-serif;
+ 	}
+ 	.boton_azul input{
+	    background-color: #100f34;
+		font-family: 'Roboto', sans-serif;
+		font-size: 0.8rem;
+		color: #ffffff;
+	}
+	.boton_blanco input{
+		 background-color: #ffffff;
+		font-family: 'Roboto', sans-serif;
+		font-size: 0.8rem;
+		color:#100f34;
+	}
+	.contacto label{
+		font-size:0.8rem;
+	}
+	.modal_ticket {
+	    width: 80%;
+	}
+	.footer_empresa, .footer_enlaces, .footer_contacto {
+	   padding-left: 0;	
+	}
+}
+@media(max-width:600px){
+	.footer-desktop{
+		display: none;
+	}
+	.footer-mobile{
+		display:flex;
+	}
+}
+@media(max-width:550px){
+	.imagen_inicio_texto_mobile {
+    	height: 250px;
+	}
+	.imagen_inicio_texto_mobile h3{
+		padding-top: 13%;
+	}
+	.imagen_inicio_texto_mobile h3{
+		font-size: 1rem;
+	}
+	.imagen_inicio_texto_mobile h2{
+		font-size: 1.2rem;
+	}
+	.imagen_inicio_texto_mobile p{
+	    font-size: 0.8rem;
+	     max-width: 283px;
+	}
+	.texto_centrado {
+    	width: 90%;
+    	margin: 28px auto;
+	}
+	.cuadro_contenedor_ticket-mobile {
+    	width: 100%;
+	}
+	.modal_ticket {
+	    width: 100%;
+	}
+	.formulario_modal_generar {
+		padding: 0;
+    	padding-top: 20px;
+    	padding-bottom: 10px;
+	}
+}
+@media(max-width:430px){
+
+	.contacto {
+   		padding: 1rem 1rem;
+	}
+	.modal_content{
+		width:100%;
+	}
+	.formulario_modal input {
+    	width: 100%;
+	}
+	.footer-mobile{
+		display: block;
+	}
+	.footer_contacto{
+		display: none;
+	}
+	.footer_empresa{
+		text-align: center;
+	}
+	.footer-mobile img {
+    	width: 100px;
+	}
+}
+
+@media(max-width:330px){
+	.imagen_inicio_texto_mobile  h3{
+		padding-top: 73px;
+		font-size: 1rem;
+		padding-left:0;
+	}
+	.imagen_inicio_texto_mobile  h2{
+		font-size: 1rem;
+		padding:0;
+	}
+	.imagen_inicio_texto_mobile  p{
+	    font-size: 0.8rem;
+	    margin: 0 auto;
+	    padding:0;
+	}
+	.imagen_inicio_texto_mobile {
+		background-image: url(../img/helpclient_inicio-mobil-2.png);
+	    background-position: center;
+	    text-align: center;
+	}
+	.imagen_inicio_texto_mobile button {
+
+    font-size: 0.7rem;
+	}
+}
+
+@media(max-width:300px){
+	#menu_mobil{
+		width:90%;
+	}
+	.cuadro_ticket-mobile {
+   	 width: 100%;
+   	}
+   	.formulario_modal_generar {
+    padding: 0;
+    padding-top: 10px;
+	}
+
+   	.formulario_modal_generar input {
+	    width: 100%;
+	    float: none;
+	}
+	.formulario_modal_generar label {
+	    color: white;
+	    clear: both;
+	    width: 100%;
+	    margin-bottom: 4px;
+	    display: block;
+	}
+	.modal_ticket {
+	    margin: 15% auto;
+	    padding: 10px;
+	}
+	.boton_azul input {
+	    margin-bottom: 10px;
+		margin-top: 10px;
+	}
+	.formulario_modal_generar textarea {
+	    width: 100%;
+	    height: 34vw;
+	}
+}
+
+
+
+
+

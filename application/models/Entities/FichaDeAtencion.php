@@ -8,20 +8,28 @@
 class FichaDeAtencion
 {
     /**
-     * @OneToMany(targetEntity="Adjunto", mappedBy="fichadeatencion")
+     * @OneToMany(targetEntity="Adjunto", mappedBy="fichaDeAtencion")
      * 
      */
     private $adjuntos;
     /**
-     * ManyToOne(targetEntity="Paciente", mappedBy="historiaclinica")
+     * @ManyToOne(targetEntity="Paciente", inversedBy="historiaClinica")
+     * @JoinColumn(name="paciente_id", referencedColumnName="id")
      * 
      */
     private $paciente;
     /**
-     * @ManyToOne(targetEntity="Doctor", mappedBy="fichadeatencion")
+     * @ManyToOne(targetEntity="Doctor", inversedBy="fichaDeAtencion")
+     * @JoinColumn(name="doctor_id", referencedColumnName="id")
      * 
      */
-    private $doctores;
+    private $doctor;
+    /**
+     * @Id
+     * @GeneratedValue
+     * @Column(type="integer")
+     */
+    private $id;
     /**
      * @return mixed
      */

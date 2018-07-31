@@ -1,0 +1,62 @@
+.tablaMenu {
+    width: 150px;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-left: -15px;
+    margin-top: -15px;
+}
+
+.tablaMenu td {
+    display: table-cell;
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #dddddd;
+}
+
+.tablaLog {
+    border-spacing: 5px;
+    border-collapse: separate;
+}
+
+.tablaLog td {
+    padding: 5px;
+}
+
+.btn-back {
+    color: #000000;
+    background-color: #FFFFFF;
+    border-color: #000000;
+}
+
+.error {
+    color: #A94442;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.errorProceso {
+    color: #A94442;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;   
+}
+
+.footer-grilla {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.clear-15 {
+    height: 15px;
+}
+
+.bootstrap-table {
+    border-top: 1px solid #dddddd;
+    padding: 10px 3px 10px 3px;
+    text-align: center;
+    font-size: 16px;
+}
+
