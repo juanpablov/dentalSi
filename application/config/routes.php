@@ -54,3 +54,5 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['altaDoctor'] = 'DoctorController/altaDoctor';
 $route['crearDoctor'] = 'DoctorController/crearDoctor';
+$route['buscarSucursales'] = 'SucursalController/buscarSucursales';
+$route['altaTurno'] = 'TurnoController/altaTurno';

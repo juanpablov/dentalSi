@@ -1,4 +1,6 @@
 <?php
+
+namespace Entities;
 require_once 'EstadoTurno.php';
 /**
  * @Entity

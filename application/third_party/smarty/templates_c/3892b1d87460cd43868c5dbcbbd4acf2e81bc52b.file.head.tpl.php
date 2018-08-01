@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19-dev, created on 2018-07-31 21:03:31
+<?php /* Smarty version Smarty-3.1.19-dev, created on 2018-08-01 18:48:56
          compiled from "C:\xampp\htdocs\dentalSi\application\views\head.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:215135b60b283d921f9-06226446%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:192095b61e4783c6100-60170544%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,15 +11,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '215135b60b283d921f9-06226446',
+  'nocache_hash' => '192095b61e4783c6100-60170544',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19-dev',
-  'unifunc' => 'content_5b60b283dbcd23_93272020',
+  'unifunc' => 'content_5b61e4783ee311_48769110',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b60b283dbcd23_93272020')) {function content_5b60b283dbcd23_93272020($_smarty_tpl) {?><!DOCTYPE html>
+<?php if ($_valid && !is_callable('content_5b61e4783ee311_48769110')) {function content_5b61e4783ee311_48769110($_smarty_tpl) {?><!DOCTYPE html>
 <html>
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">

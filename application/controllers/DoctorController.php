@@ -21,6 +21,7 @@ class DoctorController extends \CI_Controller
     
     public function crearDoctor(){
         $nombre = $this->input->post('nombre');
+        
     }
 }
 

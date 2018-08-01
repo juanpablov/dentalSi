@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19-dev, created on 2018-07-31 21:03:32
+<?php /* Smarty version Smarty-3.1.19-dev, created on 2018-08-01 18:48:56
          compiled from "C:\xampp\htdocs\dentalSi\application\views\footer-general.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:101815b60b284080c65-93190301%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:37815b61e47867b904-26549110%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,15 +11,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '101815b60b284080c65-93190301',
+  'nocache_hash' => '37815b61e47867b904-26549110',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19-dev',
-  'unifunc' => 'content_5b60b284084801_66826738',
+  'unifunc' => 'content_5b61e47867f4e2_42562017',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b60b284084801_66826738')) {function content_5b60b284084801_66826738($_smarty_tpl) {?>        </div>	
+<?php if ($_valid && !is_callable('content_5b61e47867f4e2_42562017')) {function content_5b61e47867f4e2_42562017($_smarty_tpl) {?>        </div>	
 	</div>
 </div>
 </body>

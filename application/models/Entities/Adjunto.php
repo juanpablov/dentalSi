@@ -1,4 +1,7 @@
 <?php
+
+namespace Entities;
+
 /**
  * @Entity
  * @Table(name="adjunto")

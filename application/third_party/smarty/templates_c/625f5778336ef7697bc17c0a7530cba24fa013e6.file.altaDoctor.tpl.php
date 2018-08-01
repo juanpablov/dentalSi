@@ -1,25 +1,25 @@
-<?php /* Smarty version Smarty-3.1.19-dev, created on 2018-07-31 21:03:31
+<?php /* Smarty version Smarty-3.1.19-dev, created on 2018-08-01 16:11:21
          compiled from "C:\xampp\htdocs\dentalSi\application\views\altaDoctor.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:45635b60b283bc3d98-30233695%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:163425b61bf89844847-54387798%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '625f5778336ef7697bc17c0a7530cba24fa013e6' => 
     array (
       0 => 'C:\\xampp\\htdocs\\dentalSi\\application\\views\\altaDoctor.tpl',
-      1 => 1533063794,
+      1 => 1533066628,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '45635b60b283bc3d98-30233695',
+  'nocache_hash' => '163425b61bf89844847-54387798',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19-dev',
-  'unifunc' => 'content_5b60b283c0d416_44556086',
+  'unifunc' => 'content_5b61bf89cbf6f5_59717484',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b60b283c0d416_44556086')) {function content_5b60b283c0d416_44556086($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ('header-general.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+<?php if ($_valid && !is_callable('content_5b61bf89cbf6f5_59717484')) {function content_5b61bf89cbf6f5_59717484($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ('header-general.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
 <!-- Page content -->
 <div id="page-content">

@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19-dev, created on 2018-07-31 21:03:32
+<?php /* Smarty version Smarty-3.1.19-dev, created on 2018-08-01 18:48:56
          compiled from "C:\xampp\htdocs\dentalSi\application\views\leftBarGeneral.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:118365b60b28400a644-39629645%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:207965b61e478608642-21279809%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,15 +11,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '118365b60b28400a644-39629645',
+  'nocache_hash' => '207965b61e478608642-21279809',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19-dev',
-  'unifunc' => 'content_5b60b2840114e3_98528910',
+  'unifunc' => 'content_5b61e47860ffc1_27143403',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b60b2840114e3_98528910')) {function content_5b60b2840114e3_98528910($_smarty_tpl) {?><aside class="main-sidebar">
+<?php if ($_valid && !is_callable('content_5b61e47860ffc1_27143403')) {function content_5b61e47860ffc1_27143403($_smarty_tpl) {?><aside class="main-sidebar">
     <section class="sidebar">
     	<ul class="sidebar-menu">
             <li class="header">Menú</li>
