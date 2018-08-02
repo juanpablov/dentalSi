@@ -57,6 +57,14 @@ class Especialidad
     {
         $this->nombre = $nombre;
     }
+    /**
+     * @return P
+     */
+    public function getDoctores()
+    {
+        return $this->doctores;
+    }
+
 
     
     

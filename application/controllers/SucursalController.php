@@ -21,8 +21,11 @@ class SucursalController extends \CI_Controller
     
     public function buscarSucursales(){
         $sucursales = $this->model()->buscarTodos('Entities\Sucursal');
+        $especialidades = $this->model()->buscarTodos('Entities\Especialidad');
         $this->smarty->assign("sucursales", $sucursales);
+        $this->smarty->assign("especialidades",$especialidades);
         $this->smarty->display("sucursales.tpl");
+       
     }
 }
 

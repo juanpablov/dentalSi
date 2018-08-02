@@ -20,7 +20,7 @@
             </div>
             <div class="form-group form-actions">
                 <div class="col-md-9 col-md-offset-3">
-                    <button type="submit" class="btn btn-default">Crear</button>
+                    <button type="submit" class="btn btn-default" onclick="crear_doctor()">Crear</button>
                 </div>
             </div>
         </form>
@@ -30,5 +30,7 @@
 <div id="modal" class="modal fade" role="dialog"></div>
 
 <!-- END Page Content -->
+<script src="{site_url()}public/js/funcionesGenerales.js"></script>
+<script src="{site_url()}public/js/ajaxFunction.js"></script>
 {include file='footer-general.tpl'}
 

@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19-dev, created on 2018-08-01 18:48:56
+<?php /* Smarty version Smarty-3.1.19-dev, created on 2018-08-02 21:11:07
          compiled from "C:\xampp\htdocs\dentalSi\application\views\header-general.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:10405b61e4782ea688-82283059%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:319925b63574b71f7f4-46394344%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '8b9494de0c564d817f4c58c40fa4687376fc483d' => 
     array (
       0 => 'C:\\xampp\\htdocs\\dentalSi\\application\\views\\header-general.tpl',
-      1 => 1533060806,
+      1 => 1533149135,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '10405b61e4782ea688-82283059',
+  'nocache_hash' => '319925b63574b71f7f4-46394344',
   'function' => 
   array (
   ),
@@ -21,9 +21,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19-dev',
-  'unifunc' => 'content_5b61e478305623_84538228',
+  'unifunc' => 'content_5b63574b72dbc9_79642539',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b61e478305623_84538228')) {function content_5b61e478305623_84538228($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ('head.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+<?php if ($_valid && !is_callable('content_5b63574b72dbc9_79642539')) {function content_5b63574b72dbc9_79642539($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ('head.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
 <?php echo $_smarty_tpl->getSubTemplate ('header.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 

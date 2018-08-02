@@ -1,6 +1,8 @@
 <?php
 
 
+use Entities\Doctor;
+
 class DoctorController extends \CI_Controller
 {
     private $model;
@@ -11,7 +13,9 @@ class DoctorController extends \CI_Controller
            
     }
     
-    private function model(){
+    /**
+     * @return Model
+     */private function model(){
         return $this->model;
     }
     
@@ -21,6 +25,9 @@ class DoctorController extends \CI_Controller
     
     public function crearDoctor(){
         $nombre = $this->input->post('nombre');
+        $unDoc  = new Doctor($nombre);
+        $this->model()->agregar($unDoc);
+        
         
     }
 }

@@ -55,4 +55,5 @@ $route['translate_uri_dashes'] = FALSE;
 $route['altaDoctor'] = 'DoctorController/altaDoctor';
 $route['crearDoctor'] = 'DoctorController/crearDoctor';
 $route['buscarSucursales'] = 'SucursalController/buscarSucursales';
+$route['buscarDoctoresDe/(:num)']               = "EspecialidadController/buscarDoctoresDe/$1";
 $route['altaTurno'] = 'TurnoController/altaTurno';

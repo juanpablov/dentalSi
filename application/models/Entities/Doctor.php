@@ -40,8 +40,8 @@ class Doctor
      */
     private $nombre;
     
-    public function __construct(){
-        
+    public function __construct($nombre){
+        $this->nombre = $nombre;
         $this->pacientes = array();
         $this->especialidades = array();
     }
@@ -56,6 +56,10 @@ class Doctor
     
     public function agregarEspecialidad($unaEspecialidad){
         array_push($this->especialidades);
+    }
+    
+    public function toJson(){
+        return '{"id": '.$this->id.',"nombre": '. $this->nombre.'}';
     }
 }
 
